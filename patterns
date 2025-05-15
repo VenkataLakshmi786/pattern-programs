@@ -1,0 +1,138 @@
+n=int(input("enter the size of n"))
+for i in range (n):
+    for j in range(n):
+        if i==0 or i==n-1 or j==0 or j==n-1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+enter the size of n 4
+* * * * 
+*     * 
+*     * 
+* * * * 
+
+
+
+text='lakshmi'
+a=len(text)
+for i in range(a):
+    for j in range(i+1):
+        print(text[j],end=' ')
+    print()
+
+l 
+l a 
+l a k 
+l a k s 
+l a k s h 
+l a k s h m 
+l a k s h m i 
+
+
+
+
+n=int(input("enter the size of n"))
+for i in range (n):
+    for j in range(n):
+        if i==0 or i==n-1 or j==0 or j==n-1 or i==j:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+enter the size of n 5
+* * * * * 
+* *     * 
+*   *   * 
+*     * * 
+* * * * * 
+
+
+n=int(input("enter the size of n"))
+for i in range (n):
+    for j in range(n):
+        if i==0 or i==n-1 or j==0 or j==n-1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+enter the size of n 5
+* * * * * 
+* *   * * 
+*   *   * 
+* *   * * 
+* * * * * 
+
+
+
+n=int(input("enter the size of n"))
+for i in range (n):
+    for j in range(n):
+        if  i==j or i+j==n-1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+enter the size of n 5
+*       * 
+  *   *   
+    *     
+  *   *   
+*       * 
+
+
+
+n=int(input("enter the size of n"))
+for i in range (n):
+    for j in range(n):
+        if i==0 or i==n-1 or i==j or i+j==n-1:
+            print('*', end=' ')
+        else:
+            print(' ', end=' ')
+    print()
+
+enter the size of n 5
+* * * * * 
+  *   *   
+    *     
+  *   *   
+* * * * * 
+
+
+n=int(input())
+for i in range(n):
+    for j in range(n-i):
+        print('*',end=' ')
+    print()
+
+5
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+
+n=int(input())
+for i in range(n):
+    for j in range(i):
+        print('*',end=' ')
+    print()
+for i in range(n):
+    for j in range(n-i):
+         print('*',end=' ')
+    print()
+ 5
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
